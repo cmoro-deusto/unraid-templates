@@ -10,7 +10,7 @@
   <Overview>Note Mark is a lighting fast and minimal; web-based Markdown notes app. Featuring a sleek and responsive web UI.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/cmoro-deusto/unraid-templates/refs/heads/main/templates/note-mark/note-mark.xml</TemplateURL>
   <Icon>https://i.imgur.com/dmPV2Sg.png</Icon>
   <Config Name="Service Port" Target="8000" Default="" Mode="tcp" Description="Service Port" Type="Port" Display="always" Required="false" Mask="false">8888</Config>
   <Config Name="JWT Secret" Target="JWT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0sPU8EPDkLTI</Config>
