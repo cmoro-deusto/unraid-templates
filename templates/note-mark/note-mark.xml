@@ -4,8 +4,6 @@
   <Repository>ghcr.io/enchant97/note-mark-aio</Repository>
   <Registry>ghcr.io/enchant97/note-mark-aio</Registry>
   <Network>bridge</Network>
-  <MyIP/>
-  <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://notemark.docs.enchantedcode.co.uk/</Project>
@@ -14,12 +12,6 @@
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
   <Icon>https://i.imgur.com/dmPV2Sg.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DonateText/>
-  <DonateLink/>
-  <Requires/>
   <Config Name="Service Port" Target="8000" Default="" Mode="tcp" Description="Service Port" Type="Port" Display="always" Required="false" Mask="false">8888</Config>
   <Config Name="JWT Secret" Target="JWT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0sPU8EPDkLTI</Config>
   <Config Name="CORS Origins" Target="CORS_ORIGINS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://[IP]:[PORT:8000]</Config>
