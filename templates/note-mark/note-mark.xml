@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>NoteMark</Name>
+  <Repository>ghcr.io/enchant97/note-mark-aio</Repository>
+  <Registry>ghcr.io/enchant97/note-mark-aio</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://notemark.docs.enchantedcode.co.uk/</Project>
+  <Overview>Note Mark is a lighting fast and minimal; web-based Markdown notes app. Featuring a sleek and responsive web UI.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://i.imgur.com/dmPV2Sg.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738417157</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Service Port" Target="8000" Default="" Mode="tcp" Description="Service Port" Type="Port" Display="always" Required="false" Mask="false">8888</Config>
+  <Config Name="JWT Secret" Target="JWT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0sPU8EPDkLTI</Config>
+  <Config Name="CORS Origins" Target="CORS_ORIGINS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://[IP]:[PORT:8000]</Config>
+  <Config Name="Data Path" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/note-mark</Config>
+  <TailscaleStateDir/>
+</Container>
