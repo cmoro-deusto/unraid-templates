@@ -11,7 +11,7 @@
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/cmoro-deusto/unraid-templates/refs/heads/main/templates/note-mark/note-mark.xml</TemplateURL>
-  <Icon>https://i.imgur.com/dmPV2Sg.png</Icon>
+  <Icon>https://raw.githubusercontent.com/cmoro-deusto/unraid-templates/refs/heads/main/icons/note-mark.png</Icon>
   <Config Name="Service Port" Target="8000" Default="" Mode="tcp" Description="Service Port" Type="Port" Display="always" Required="false" Mask="false">8888</Config>
   <Config Name="JWT Secret" Target="JWT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0sPU8EPDkLTI</Config>
   <Config Name="CORS Origins" Target="CORS_ORIGINS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://[IP]:[PORT:8000]</Config>
